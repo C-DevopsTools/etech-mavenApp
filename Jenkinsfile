@@ -29,7 +29,7 @@ pipeline {
         sh 'mvn clean verify sonar:sonar \
   -Dsonar.projectKey=cpipeline \
   -Dsonar.host.url=http://ec2-3-23-95-170.us-east-2.compute.amazonaws.com:9000 \
-  -Dsonar.login=sqp_e07b54932ff8fd13143bbf9f75a19d7367ff4737
+  -Dsonar.login=sqp_0ec02c1ce8a0021c47bf30843e39bc41fe57e57f'
       }
     }
   }
